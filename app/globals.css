@@ -7,3 +7,9 @@
     @apply text-carrot-orange;
   }
 }
+
+@layer components {
+  .primary-btn {
+    @apply bg-carrot-orange text-carrot-white font-semibold rounded-md w-full hover:bg-carrot-lightOrange transition-colors;
+  }
+}

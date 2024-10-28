@@ -13,9 +13,7 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col w-full gap-4 p-6'>
-        <button className='bg-carrot-orange text-carrot-white font-semibold p-4 rounded-md w-full hover:bg-carrot-lightOrange transition-colors'>
-          시작하기
-        </button>
+        <button className='primary-btn p-4'>시작하기</button>
         <div className='flex justify-center gap-2'>
           <span className='text-carrot-gray'>이미 계정이 있나요?</span>
           <Link href='/login' className='hover:underline'>

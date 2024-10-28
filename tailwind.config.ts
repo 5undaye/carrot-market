@@ -13,7 +13,7 @@ const config: Config = {
           orange: '#FF7E36',
           white: '#FFFFFF',
           black: '#333333',
-          gray: '#F2F3F5',
+          gray: '#525252',
           lightOrange: '#FFA366',
         },
       },
